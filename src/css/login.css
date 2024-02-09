@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+}
+
+.login {
+  margin-top: 150px;
+  width: 300px;
+  padding: 20px;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  color: #000000;
+}
+.Header{
+  color: #000000;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 18px;
+  color: #000000;
+}
+
+input,
+button {
+  padding: 12px;
+  margin: 10px;
+  border-radius: 4px;
+}
+.button {
+  padding: 10px;
+  background-color: #f8e5dd;
+  color: #000000;
+  border: none;
+  font-weight: 500;
+  font-size: 18px;
+  width: 220px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #e66c37;
+  color: #000000;
+}
+.bttn {
+  display: flex;
+  justify-content: center;
+}

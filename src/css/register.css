@@ -1,0 +1,410 @@
+.registration-container {
+  background-color: #000000;
+}
+.reg {
+  display: flex;
+  justify-content: center;
+}
+.registration-form {
+  display: grid;
+  gap: 15px;
+  background-color: rgb(20, 20, 20);
+  max-width: 100%;
+  margin-bottom: 5%;
+  padding: 40px;
+}
+.radio {
+  display: flex;
+}
+.parties {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.locality-radio {
+  display: flex;
+  align-items: center;
+}
+.Main-fields {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 30px 0;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #000;
+  border: 2px solid #ffffff;
+  margin-right: 5px;
+  justify-items: center;
+}
+.Main-fields2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 30px 0;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #000;
+  border: 2px solid #ffffff;
+  margin-right: 5px;
+  justify-items: center;
+}
+/* .urban-fields,
+.rural-fields {
+  background: rgb(0, 36, 20);
+  background: linear-gradient(
+    72deg,
+    rgba(0, 36, 20, 1) 0%,
+    rgba(25, 187, 213, 1) 17%,
+    rgba(255, 132, 0, 1) 97%
+  );
+  display: table-column-group;
+  width: fit-content;
+  margin-top: 15px;
+  padding: 15px;
+} */
+.submit {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+}
+.optional {
+  width: 50%;
+}
+select {
+  padding: 10px;
+  margin: 10px;
+  max-width: 250px;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #ffffff;
+}
+
+textarea {
+  padding: 2px;
+  margin: 10px;
+  height: 100px;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #f8e5dd;
+}
+input {
+  width: 250px;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #f8e5dd;
+}
+input[type="text"]::placeholder {
+  font-size: 14px;
+  color: #252424;
+  text-align: start;
+}
+input[type="text"] {
+  font-size: 15px;
+  color: #4d4a4a;
+  box-shadow: 2px 2px #7e7a7a;
+  text-align: start;
+}
+textarea::placeholder {
+  font-size: 16px;
+  color: #252424;
+  padding: 5px;
+  text-align: start;
+}
+
+/* input[type="textarea"]{
+  background-color: rgb(218, 159, 51);
+} */
+label {
+  color: #ffffff;
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.local {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.smt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .urban-fields,
+.rural-fields {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  align-items: center;
+  width: 90%;
+} */
+
+.fields-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+}
+button {
+  background-color: #739eb8;
+  width: fit-content;
+  font-weight: 500;
+  margin: 10px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+}
+button:hover {
+  background-color: #488db6;
+  color: rgb(255, 255, 255);
+}
+.locality-fields {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.additional-fields {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  background-color: #000;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+
+.ac-fields {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #000;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+select {
+  cursor: pointer;
+  width: 250px;
+}
+.radio {
+  cursor: pointer;
+}
+.btttn {
+  font-weight: 500;
+  font-size: 18px;
+  width: 220px;
+}
+.locality-header {
+  text-align: center;
+}
+.locality-container .locality-header {
+  display: none;
+}
+
+.locality-container.fields-shown .locality-header {
+  display: block;
+}
+
+.text-entries {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.locality-container .ac-fields {
+  display: none;
+}
+
+.locality-container.fields-shown .ac-fields {
+  display: block;
+}
+.text-entry {
+  padding: 2px;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.extra-fields {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+}
+.extra-fields2 {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+.other-fields {
+  grid-template-columns: repeat(1, 1fr);
+  display: grid;
+  margin-top: 60px;
+}
+.radio-fields {
+  grid-template-columns: repeat(1, 1fr);
+  display: grid;
+  margin-top: 10px;
+}
+.radio-fieldss {
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  justify-items: center;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+.radio-fieldsss {
+  grid-template-columns: repeat(1, 1fr);
+  display: grid;
+  justify-items: center;
+  margin-top: 15px;
+}
+.gaps {
+  margin: 5px;
+}
+.option-radio {
+  grid-template-columns: repeat(3, 1fr);
+  display: grid;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  background-color: #000;
+  align-items: center;
+  justify-items: center;
+  padding: 30px 10px;
+}
+.extra-field-section {
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+}
+h3 {
+  text-align: left;
+  color: #ffffff;
+}
+.field-section {
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+}
+.textarea-section {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.radios {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.label-options {
+  width: 30px;
+}
+.select-div{
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 1330px) {
+  .Main-fields {
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .text-entries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+  .extra-fields {
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .Main-fields {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .text-entry {
+    flex-direction: column;
+    align-items: center;
+  }
+  .option-radio {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .text-entries {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .field-section {
+    justify-content: flex-end;
+  }
+  .extra-fields {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .radio-fieldss {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .Main-fields {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .text-entries {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .field-section {
+    display: grid;
+    justify-content: center;
+  }
+  .extra-fields {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  h3 {
+    text-align: center;
+  }
+  .option-radio {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .radio-fieldss {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .registration-form {
+    padding: 0px;
+  }
+  input {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .radio-fieldss {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .registration-form {
+    padding: 0px;
+  }
+  input {
+    max-width: 250px;
+  }
+}

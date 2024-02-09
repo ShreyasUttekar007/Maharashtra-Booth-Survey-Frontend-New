@@ -1,0 +1,75 @@
+.w3-sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .w3-sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .w3-sidebar a:hover {
+    color: #008cff;
+    box-shadow: 0 0 10px rgba(0, 160, 253, 0.5);
+  }
+  
+  .w3-sidebar .w3-bar-item {
+    padding: 16px;
+    color: white;
+  }
+  
+  .w3-main {
+    transition: margin-left 0.5s;
+    padding: 16px;
+  }
+  
+  .open {
+    width: 15%;
+  }
+  
+  .w3-teal {
+    background-color: #008080;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  #openNav {
+    display: inline-block;
+  }
+  .sidebar-button{
+    width: 50px;
+    margin: 10px 10px;
+    border: none;
+  }
+  .sidebar-close-button{
+    width: 100px;
+    margin: 20px 10px;
+    background-color: rgb(255, 0, 0);
+    border: none;
+  }
+  .sidebar-close-button:hover{
+    width: 100px;
+    margin: 20px 10px;
+    background-color: rgb(199, 5, 5);
+    border: none;
+  }
+  .close-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }

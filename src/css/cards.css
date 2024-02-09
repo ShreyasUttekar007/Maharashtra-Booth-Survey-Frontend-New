@@ -1,0 +1,52 @@
+.head {
+  background-color: #333;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.imggg {
+  width: 100px;
+  height: 100px;
+  padding: 20px 5px;
+}
+.footer {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.mom{
+  width: fit-content;
+  height: fit-content;
+  border: none;
+}
+h1{
+  font-family: garamond;
+  font-size: 40px;
+}
+.logout{
+  width: fit-content;
+  height: fit-content;
+  margin: 0px 15px;
+  border: none;
+  background-color: rgb(255, 0, 0);
+}
+.logout:hover{
+  width: fit-content;
+  height: fit-content;
+  margin: 0px 15px;
+  border: none;
+  background-color: rgb(212, 3, 3);
+}
+.headerssss{
+  color: white;
+}
+.admin-button{
+  border: none;
+  width: fit-content;
+}
